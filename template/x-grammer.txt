@@ -1,0 +1,58 @@
+<grammar root="hypster_senses" xml:lang="en-US">
+
+	<rule id="home_choice_1">
+	  <one-of>
+		<item>music</item>
+		<item>charts</item>
+		<item>radio</item>
+		<item>account</item>
+		<item>listen to radio</item>
+		<item>listen to music</item>
+		<item>listen to charts</item>
+		<item>my account</item>
+
+		<item>my playlists</item>
+        <item>my playlist</item>
+        <item>playlists</item>
+        <item>playlist</item>
+
+        <item>search</item>
+        <item>search music</item>
+        <item>music</item>
+
+        <item>charts</item>
+        <item>chart</item>
+        <item>listen to charts</item>
+        <item>listen charts</item>
+
+        <item>radio</item>
+        <item>listen to radio</item>
+        <item>listen radio</item>
+        <item>my account</item>
+        <item>account</item>
+        <item>access my account</item>
+
+		<item></item>
+
+		<item>home</item>
+		<item>log out</item>
+	  </one-of>
+	</rule>
+
+
+
+	
+	<rule id="hypster_senses" scope="public">
+	   
+	   <item>
+		 <ruleref uri="#home_choice_1"/>
+	   </item>
+
+	</rule>
+
+
+	
+
+	
+
+</grammar>
